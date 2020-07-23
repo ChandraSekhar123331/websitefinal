@@ -1,0 +1,300 @@
+/******************************************************  reset start ************************************************************/
+*{
+    margin:0px;
+    padding: 0px;
+    border:0px;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/******************************************************  reset end ************************************************************/
+/******************************************************  nav start ************************************************************/
+h1,h2,h3,h4{
+    font-family: 'Open Sans', sans-serif;
+}
+h3{
+    font-size: 4vmin;
+    color:thistle
+}
+h4{
+    font-size:3vmin    /*1.2rem*/;
+}
+
+nav#navbar{
+    display:flex;
+    flex-wrap: wrap;
+    height:10vh;
+    background-color:rgb(24, 29, 24);
+    justify-content:space-between;
+    /* align-items: center; */
+}
+nav h3{
+    padding:2vh 0vh;
+}
+nav #links{
+    display: flex;
+    height:100%;
+}
+nav #links li{
+    list-style-type: none;
+    /* padding:3.5vh; */
+}
+nav #links li:hover,nav #links li:hover a{
+    cursor: pointer;
+    background-color: rgb(96, 107, 97);
+    color:white;
+}
+nav a{
+    font-size:2.5vmin;
+    display:block;
+    height:100%;
+    padding:3.5vh 2vw;
+    text-decoration: none;
+    color:rgb(120 213 120);
+}/******************************************************  nav ends ************************************************************/
+
+/************************************************  Index/Home starts  ****************************************************************/
+#Intro{
+    min-height:90vh;
+    background: url(../images/moon.jpg) no-repeat center center/cover;
+    
+}
+/* #Intro::before{
+    background: url(../images/moon.jpg) no-repeat center center/cover;
+    content: "";
+    position: absolute;
+    top:0px;left:0px;
+    height:100vh;
+    width:100vw;
+    z-index: -1;;
+    opacity:1;
+} */
+#Intro .spacefiller{
+    height:42vh;
+}
+#Intro .content{
+    color:white;
+    display: block;
+    width:50vw;
+    margin:auto;
+    font-size: 5vmin;
+    text-align: center;;
+}
+/************************************************  Index/Home ends  ****************************************************************/
+
+/************************************** button starts ********************************************************/
+.btncont{
+    width:40vw;
+    height:10vh;
+    margin:30px auto;
+    display:flex;
+    background-color: tomato;
+    justify-content:center;
+    cursor: pointer;
+}
+.fbtn{
+    font-size: 1.5rem;
+    width:40vw;
+}
+.bbtn{
+    font-size: 1.2rem;
+}
+/************************************** button ends ************************************************************/
+/************************************** About Starts************************************************************/
+#About{
+    font-size: 2.8vmin ;/*1.3rem;*/
+    width: 100vw;
+    min-height: 90vh;
+    line-height: 4vh;
+    color: #681b1b;
+    overflow: auto;
+    word-spacing: 1vmin;
+    letter-spacing: 0.2vmin;
+    background: url(../images/aboutbg3.jpg) no-repeat center center/cover;
+}
+/* #About::before{
+    width:100vw;
+    height:100vh;
+    position:absolute;
+    top:0px;
+    left:0px;;
+    z-index: -1;
+    opacity: 0.8;
+} */
+#About blockquote{
+    width:60vw;
+    margin:auto;
+    border-radius: 10px;
+    background-color: darkkhaki;
+    padding-left: 15px;
+    border-left:5px solid blue;
+    margin-top:6vh;
+    margin-bottom: 6vh;
+}
+#About #content{
+    width:60vw;
+    margin:auto;
+    background-color: darkkhaki;
+    padding:10px;
+    border-radius: 10px;
+    
+    
+}
+/************************************** About Ends************************************************************/
+
+/************************************** My Interests Starts************************************************************/
+#Interests{
+    min-height:90vh;
+    /* width:100vw; */
+    margin:auto;
+    /* background-color: crimson; */
+    background: url(../images/Interestsbg.jpg) no-repeat center center/cover;
+    overflow: auto;
+}
+/* #Interests::before{
+    content:"";
+    height:100vh;
+    width:100vw;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    z-index:-1;
+    opacity:1;
+} */
+#AcadInter{
+    /* height:39vh; */
+    width:90vw;
+    margin: 1.5vh auto;
+    display: flex;  
+    flex-wrap:wrap;
+    justify-content: center;
+}
+#nonAcadInter{
+    width:90vw;
+    margin:1.5vh auto;
+    display: flex;
+    flex-wrap:wrap;  
+    justify-content: center; 
+}
+#AcadInter img{
+    width: 15vmin;
+    height: 15vmin;
+    display: block;
+}
+#nonAcadInter img{
+    width: 15vmin;
+    height: 15vmin;
+    display: block;
+    
+}
+#AcadInter div{
+    /* height:50vh; */
+    margin:10px;
+    padding:2vh 2vw;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: chocolate;
+}
+#nonAcadInter div{
+    /* height:35vh; */
+    margin:10px;
+    padding:2vh 2vw;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    background-color: chocolate;
+}
+#AcadInter p,#nonAcadInter p{
+    font-size: 1.9vmin;;
+}
+/************************************** My Interests Ends************************************************************/
+
+/******************************************** Acads Starts **************************************************/
+#Acads{
+    background-color: rgb(46 45 45);
+    
+    min-height:90vh;
+    padding: 5vh 30vw;
+}
+#Acads h4{
+    color:#f9521de3;
+    margin-bottom: 2vh;
+    text-decoration: underline;
+}
+#Acads ul{
+    color:#cbc9c4;
+    font-size: 2.2vmin;;
+    margin-bottom: 2vh;;
+}
+#Acads li{
+    margin-left: 2vw;;
+    /* list-style-type: none; */
+    line-height: 3.5vh;
+}
+/******************************************** Acads Ends **************************************************/ 
+
+/******************************************** Contact Starts **************************************************/ 
+/* form::before{
+    content:"";
+    height:100vh;
+    width:100vw;
+    position: absolute;
+    top:0px;
+    left:0px;
+    z-index:-1;
+    opacity:0.5;
+} */
+form{
+    display:flex;
+    flex-direction: column;
+    width:100vw;
+    min-height:90vh;
+    font-family: 'Open Sans', sans-serif;
+    background: url(../images/contactbg.jpg) no-repeat center center/cover;
+    opacity:0.8;
+    color:black;
+}
+label{
+    display: block;;
+    width:30vw;
+    margin:3.4vh auto;
+    cursor: pointer;
+    font-size:2.9vmin; /*1.2rem;*/
+}
+input,textarea{
+    width:30vw;
+    margin:0px auto;
+    border: 1px solid black;
+    outline:none;
+}
+input{
+    font-size: 2.3vmin;
+    height:5vh;
+    padding-left: 30px;;
+    border-radius: 13px;
+}
+textarea{
+    font-size: 2.3vmin;
+    height:20vh;
+    padding-left: 30px;;
+    border-radius: 13px;
+    resize:none;
+    margin-bottom:3vh;
+}
+input:focus , textarea:focus{
+    background-color:wheat;
+}
+input[type="submit"]{
+    background-color: teal;
+    height:5vh;
+    width:14vw;
+    text-align: center;
+    padding-left: 0px;
+    font-size: 2.3vmin;
+    cursor: pointer;
+}
+
+
+/******************************************** Contact Ends **************************************************/ 

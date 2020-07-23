@@ -1,0 +1,93 @@
+instead of <b> </b> use <strong></strong>
+instead of <i> </i> use <em> </em> tag
+<hr> is br + givess a horizontal line there
+<br> just gives a line break; usinng 5br's gives 5 lines space
+uing br and bold and i is not at all recommended (br I think poses some css problems)
+target="_blank" to open in a new window
+<img src="" alt="" title=""> these title pops uo when you hover over image
+don't use styling in html . it's a bad practice
+tables have table tag inside of which we use thead tag and tbody tag like below
+<table>
+		<thead>
+			<tr>
+				<th>Name</th>
+				<th>Id</th>
+				<th>Employee Roll</th>
+			</tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>Harry</td>
+				<td>190050001</td>
+				<td>teaches onlie</td>
+
+			</tr>
+			<tr>
+				<td>Hary</td>
+				<td>19005001</td>
+				<td>teaches ofline</td>
+
+			</tr>
+			<tr>
+				<td>Ha</td>
+				<td>0050001</td>
+				<td>doesn't teach</td>
+
+			</tr>
+		</tbody>
+	</table>
+   inline elements: em,strong,a,span
+   block elementss: p,div,li, 
+   inline elements take only the space required 
+   where as block elements take up all the space (i mean the whole width) .So they start in a new line alway.
+   two inline elements following come in a same line as expected.
+   forms:
+	1) form tag is there;inside it use input tag and see various types possible.Its the input tag that does the magic work
+	2)label tag has for attribute where You should specify the "id"(not name!) of input box to which it has to corrspond
+	3)sthng called select tag also exists in that you have to specify options.YOu can make one of them default by writing selected as attribute
+	4)radio buttons are there ad check boxes also ... explore this
+	5)text area tag is to make a text box 
+	6)  In forms , input elments, name attribute is to specify under what name it has to be sent to backend
+	7)
+
+	id's and classes:
+		two elements shouldn't have same id;
+		if you have same class things give them class instead of id.
+		If uniwue then only give id
+		an element will have one id and an id can be given to only one elment
+		but an element can have more than one class and a class can be given to more than one element
+		syntax: class="redbg blackborder"
+		class= use . in emmet.To get multiple classes a.b.c .Emmet takes div as base 
+		id =use # in emmet
+
+	semantic elements : 1)header 
+						2)footer
+						3)nav
+						4).... google them.They provide semantic meaning to our webpage. Our webpage also will have better ranks in google search
+			/*******************************         **************************************/
+
+	CSS:
+		1)inline CSS will be given more priority over internal CSS
+		2)Don't forget to include your CSS in HTML.This is a very common mistake
+		3)In internal and external CSS the one which comes later is the one having more preceedence...
+		4)but You can use the !important property to make something non-overridable !important should be written at end of property just before semicolon even over the inline CSS
+		5)selectors:
+			Group Selectors: p,div (i.e combining selectors with comma)
+			Class Selectors:like .myclass or p.myclass
+			ID selectors :like #myid p#myid
+			Element selector: p or simple div ir span {}...
+		6)never believe in screen Shots because they can be changed easily by Inspect element temporarily
+		7)fonts:
+			font-family: websafe fonts, or google fonts
+			font-weight:
+			font-style:
+			line-height:
+			
+		8)visibility:hidden and dispaly none aren't same ; visibility-hidden: means empty space will still be there but in  display:none -> empty space also won't be shown
+		9)position:
+			absolute:it's default is static not 0,0
+			fixed:
+			relative: relatiev w.r.t to it's actual position
+			static:
+			sticky:
+		10)
